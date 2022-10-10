@@ -3,3 +3,4 @@
 
 - click on "new" button, and new activity idea will be displayed
 - I made this app to practice using external APIs and JavaScript
+- used external API: "https://apis.scrimba.com/bored/api/activity"
