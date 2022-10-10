@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background:rgb(34, 34, 65);
+}
+
+.content {
+    width: 90%;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: orangered;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5px 20px;
+}
+
+.activity-container {
+    display: border-box;
+    border: 6px dotted orangered;
+    background: #e7e7e7;
+    border-radius: 13px;
+    position: relative;
+    margin: 50px; 
+}
+
+#activity-btn {
+    width: 150px;
+    height: 150px;
+    border:none;
+    border-radius: 50%;
+    background: orangered;
+    color: #e7e7e7;
+    margin: 3rem auto;
+    font-size: 3rem;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-weight: 700; 
+} 
+
+#activity-btn:hover {
+    background: rgb(118, 32, 1);
+}
+
+@media screen and (min-width: 800px){
+    .content {
+        width: 60%;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+
+}
