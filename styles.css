@@ -1,6 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background:rgb(34, 34, 65);
+    /* background:rgb(34, 34, 65); */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .content {
@@ -63,9 +67,12 @@ h3 {
         width: 60%;
     }
 
-    h3 {
-        font-size: 3rem;
+    h1 {
+        font-size: 4rem;
     }
 
+    h2, h3 {
+        font-size: 3rem;
+    }
 
 }
